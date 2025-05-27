@@ -1,0 +1,23 @@
+ul,
+ol {
+  list-style-type: none;
+}
+.menu .link:hover {
+  color: #000000;
+}
+
+.budy {
+  font-family: "Roboto", sans-serif;
+  color: #000000;
+}
+.ideas {
+}
+
+button {
+  background-color: #4d5ae5;
+  color: #ffffff;
+  border: none;
+}
+button:hover {
+  background-color: #120a89;
+}
