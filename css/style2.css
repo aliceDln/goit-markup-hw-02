@@ -28,7 +28,7 @@
   color: #bf406c;
 }
 
-.header-adress:focus {
+.hadress:focus {
   color: #bf406c;
 }
 
@@ -45,12 +45,9 @@
   text-decoration: none;
 }
 
-.nav-link:hover {
-  color: #4d5ae5;
-}
-
+.nav-link:hover,
 .nav-link:focus {
-  color: #bf406c;
+  color: #404bbf;
 }
 
 .contact-link {
@@ -85,6 +82,8 @@
   font-size: 16px;
   line-height: 1.5;
   border: none;
+  letter-spacing: 4%;
+  size-height: 24px;
 }
 
 .main-button:hover,
