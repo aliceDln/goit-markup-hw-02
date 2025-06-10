@@ -19,13 +19,27 @@
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #4d5ae5;
-}
-.header-logo:hover {
-  color: #2e2f43;
+  text-decoration: none;
 }
 .header-logo:focus {
   color: #bf406c;
+}
+
+.logo-web {
+  color: #4d5ae5;
+}
+
+.logo-studio {
+  color: #2e2f42;
+}
+
+.hadress {
+  color: #434455;
+}
+
+.contact-link {
+  color: #434455;
+  text-decoration: none;
 }
 
 .hadress:focus {
@@ -65,6 +79,7 @@
 .main {
   text-align: center;
   background-color: #2e2f43;
+  height: 600px;
 }
 
 .main-slogan {
@@ -80,10 +95,12 @@
   color: #ffffff;
   font-weight: 500;
   font-size: 16px;
-  line-height: 1.5;
+  line-height: 24px;
   border: none;
   letter-spacing: 4%;
-  size-height: 24px;
+  size: 16px;
+  width: 169px;
+  height: 56px;
 }
 
 .main-button:hover,
@@ -97,7 +114,6 @@
 }
 .ideas-list {
   background-color: #ffffff;
-  border: 1px solid #e7e9fc;
 }
 
 .ideas-title {
@@ -180,17 +196,19 @@
 
 .footer {
   background-color: #2e2f42;
-  color: #f4f4fd;
+  color: #ffffff;
 }
-
-.footer-logo {
+.footer-logo-link {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #4d5ae5;
+  text-decoration: none;
+}
+.logo-studioi {
+  color: #f4f4fd;
 }
 
 .footer-text {
